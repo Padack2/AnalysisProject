@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DataApplication<data>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "analysisproject.data.DataApplication",
+      "projectName": "data",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DataApplication<data>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.analysisproject.data.DataApplication",
+      "projectName": "data",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
