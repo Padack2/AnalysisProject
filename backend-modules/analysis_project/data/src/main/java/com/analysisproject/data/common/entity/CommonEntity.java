@@ -1,6 +1,6 @@
-package com.analysisproject.data.domain;
+package com.analysisproject.data.common.entity;
 
-import java.util.Calendar;
+import java.util.Date;
 
 import lombok.Getter;
 import lombok.experimental.SuperBuilder;
@@ -8,7 +8,7 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @SuperBuilder
 public class CommonEntity {
-  protected final Calendar dates;
+  protected final Date dates;
   protected final String branchCd;
   protected final String branchNm;
 }

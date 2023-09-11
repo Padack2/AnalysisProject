@@ -1,12 +1,12 @@
-package com.analysisproject.data.domain.heat;
-import com.analysisproject.data.domain.CommonEntity;
+package com.analysisproject.data.heat;
+import com.analysisproject.data.common.entity.CommonEntity;
 
 import lombok.Getter;
 import lombok.experimental.SuperBuilder;
 
 @Getter
 @SuperBuilder
-public class Heat extends CommonEntity {
+public class HeatEntity extends CommonEntity {
   private String facTypeCd;
   private String factTypeNm;
   private String areaCd;
