@@ -1,6 +1,6 @@
 package com.analysisproject.data.common.entity;
 
-import java.util.Date;
+import java.sql.Date;
 
 import lombok.Getter;
 import lombok.experimental.SuperBuilder;
